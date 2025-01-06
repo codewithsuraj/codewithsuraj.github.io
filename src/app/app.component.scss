@@ -62,11 +62,13 @@
         .left {
             img {
                 width: 25rem;
+                height: 25rem;
                 border-radius: 50%;
+                object-fit: cover;
 
                 @media only screen and (max-width: 1000px) {
                     width: 15rem;
-
+                    height: 15rem;
                 }
             }
 
